@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Today</title>
+    <link rel="shortcut icon" href="./Media/Icon.png" type="image/x-icon">
+    <!-- tailwind cdn -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- daisy ui links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/d7d646adae.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar bg-base-100 shadow-sm container mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost text-xl"><img class="w-16" src="./Media/Logo.png" alt=""></a>
+            </div>
+            <div class="navbar-end hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <!-- top banner section starts here -->
+        <section class="flex flex-col md:flex-row-reverse items-center container mx-auto">
+            <div
+                class="bg-[url(./Media/bannerbg.png)] bg-contain bg-no-repeat bg-bottom flex justify-center w-full md:w-1/2">
+                <img src="./Media/man.png" alt="">
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-start">
+                <h1 class="text-4xl md:text-5xl xl:text-7xl font-bold  mt-12">Let’s Help <br> Those Who Are <br> More In
+                    Need</h1>
+                <p class="my-5 text-gray-600 ">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at
+                    eam falli
+                    deterruisset. No duo populo
+                    animal noluisse, enim</p>
+                <button class="btn btn-error text-white">Donate Now</button>
+                <button class="  text-gray-600 ms-3"><i class="fa-solid fa-play me-3"></i>Wathc Video</button>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
